@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<RootNamespace>DicomYard.Infrastructure.Dicom</RootNamespace>
+	</PropertyGroup>
+	<Import Project="../../GlobalSettings.msbuild" />
+
+</Project>

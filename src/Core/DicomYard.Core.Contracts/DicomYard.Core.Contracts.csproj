@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<RootNamespace>DicomYard.Core.Contracts</RootNamespace>
+	</PropertyGroup>
+	<Import Project="../../GlobalSettings.msbuild" />
+
+  <ItemGroup>
+    <ProjectReference Include="..\DicomYard.Core.Domain\DicomYard.Core.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A12E72CC-1068-4DBF-980D-BA4F5CFB69E0}"
+	ProjectSection(SolutionItems) = preProject
+		GlobalSettings.msbuild = GlobalSettings.msbuild
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{89067D44-9570-4636-BCA3-1F0369E31806}"
+	ProjectSection(SolutionItems) = preProject
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Presentation", "01. Presentation", "{934FBF8A-9F35-4785-A217-D325D6C4A1D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Service", "02. Service", "{0FA54B59-2746-430A-8301-413DF9EC5B1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Modules", "03. Modules", "{7404A131-D40E-411D-80E2-74B20A3A9B06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. Test", "00. Test", "{5FB165E9-5FA6-45F1-B479-4CA086814C2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Infrastructure", "04. Infrastructure", "{59A1C742-4B97-43B7-9468-62938B692B91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Core", "05. Core", "{8CF77E13-E3ED-4887-9363-DEEB13CF5497}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DicomYard.Core.Domain", "Core\DicomYard.Core.Domain\DicomYard.Core.Domain.csproj", "{E9BDF67C-B341-433C-B10A-CC529C309744}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DicomYard.Core.Contracts", "Core\DicomYard.Core.Contracts\DicomYard.Core.Contracts.csproj", "{AFC9D45A-C327-45B8-9DE8-0BA7B0164F43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DicomYard.Infrastructure.Dicom", "Infrastructure\DicomYard.Infrastructure.Dicom\DicomYard.Infrastructure.Dicom.csproj", "{9C3FBAFE-5AF1-4D63-A5A8-D9CC4324D909}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DicomYard.Services.PrivateApi", "Services\DicomYard.Services.PrivateApi\DicomYard.Services.PrivateApi.csproj", "{ACF5CE05-0607-4435-ABAB-F935B01EC15E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9BDF67C-B341-433C-B10A-CC529C309744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9BDF67C-B341-433C-B10A-CC529C309744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9BDF67C-B341-433C-B10A-CC529C309744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9BDF67C-B341-433C-B10A-CC529C309744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFC9D45A-C327-45B8-9DE8-0BA7B0164F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC9D45A-C327-45B8-9DE8-0BA7B0164F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC9D45A-C327-45B8-9DE8-0BA7B0164F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC9D45A-C327-45B8-9DE8-0BA7B0164F43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C3FBAFE-5AF1-4D63-A5A8-D9CC4324D909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C3FBAFE-5AF1-4D63-A5A8-D9CC4324D909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C3FBAFE-5AF1-4D63-A5A8-D9CC4324D909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C3FBAFE-5AF1-4D63-A5A8-D9CC4324D909}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACF5CE05-0607-4435-ABAB-F935B01EC15E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF5CE05-0607-4435-ABAB-F935B01EC15E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF5CE05-0607-4435-ABAB-F935B01EC15E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF5CE05-0607-4435-ABAB-F935B01EC15E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{934FBF8A-9F35-4785-A217-D325D6C4A1D7} = {A12E72CC-1068-4DBF-980D-BA4F5CFB69E0}
+		{0FA54B59-2746-430A-8301-413DF9EC5B1B} = {A12E72CC-1068-4DBF-980D-BA4F5CFB69E0}
+		{7404A131-D40E-411D-80E2-74B20A3A9B06} = {A12E72CC-1068-4DBF-980D-BA4F5CFB69E0}
+		{5FB165E9-5FA6-45F1-B479-4CA086814C2A} = {A12E72CC-1068-4DBF-980D-BA4F5CFB69E0}
+		{59A1C742-4B97-43B7-9468-62938B692B91} = {A12E72CC-1068-4DBF-980D-BA4F5CFB69E0}
+		{8CF77E13-E3ED-4887-9363-DEEB13CF5497} = {A12E72CC-1068-4DBF-980D-BA4F5CFB69E0}
+		{E9BDF67C-B341-433C-B10A-CC529C309744} = {8CF77E13-E3ED-4887-9363-DEEB13CF5497}
+		{AFC9D45A-C327-45B8-9DE8-0BA7B0164F43} = {8CF77E13-E3ED-4887-9363-DEEB13CF5497}
+		{9C3FBAFE-5AF1-4D63-A5A8-D9CC4324D909} = {59A1C742-4B97-43B7-9468-62938B692B91}
+		{ACF5CE05-0607-4435-ABAB-F935B01EC15E} = {0FA54B59-2746-430A-8301-413DF9EC5B1B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF4FB9C1-9A84-4BE7-B25F-15D7D20D88DF}
+	EndGlobalSection
+EndGlobal
