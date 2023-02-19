@@ -26,13 +26,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Infrastructure", "04. I
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Core", "05. Core", "{8CF77E13-E3ED-4887-9363-DEEB13CF5497}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DicomYard.Core.Domain", "Core\DicomYard.Core.Domain\DicomYard.Core.Domain.csproj", "{E9BDF67C-B341-433C-B10A-CC529C309744}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DicomYard.Core.Domain", "Core\DicomYard.Core.Domain\DicomYard.Core.Domain.csproj", "{E9BDF67C-B341-433C-B10A-CC529C309744}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DicomYard.Core.Contracts", "Core\DicomYard.Core.Contracts\DicomYard.Core.Contracts.csproj", "{AFC9D45A-C327-45B8-9DE8-0BA7B0164F43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DicomYard.Core.Contracts", "Core\DicomYard.Core.Contracts\DicomYard.Core.Contracts.csproj", "{AFC9D45A-C327-45B8-9DE8-0BA7B0164F43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DicomYard.Infrastructure.Dicom", "Infrastructure\DicomYard.Infrastructure.Dicom\DicomYard.Infrastructure.Dicom.csproj", "{9C3FBAFE-5AF1-4D63-A5A8-D9CC4324D909}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DicomYard.Infrastructure.Dicom", "Infrastructure\DicomYard.Infrastructure.Dicom\DicomYard.Infrastructure.Dicom.csproj", "{9C3FBAFE-5AF1-4D63-A5A8-D9CC4324D909}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DicomYard.Services.PrivateApi", "Services\DicomYard.Services.PrivateApi\DicomYard.Services.PrivateApi.csproj", "{ACF5CE05-0607-4435-ABAB-F935B01EC15E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DicomYard.Services.PrivateApi", "Services\DicomYard.Services.PrivateApi\DicomYard.Services.PrivateApi.csproj", "{ACF5CE05-0607-4435-ABAB-F935B01EC15E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DicomYard.Services.DicomBackgroundService", "Services\DicomYard.Services.DicomBackgroundService\DicomYard.Services.DicomBackgroundService.csproj", "{E59146E6-0254-4F21-A989-B4BD5C3B3DDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,6 +58,10 @@ Global
 		{ACF5CE05-0607-4435-ABAB-F935B01EC15E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACF5CE05-0607-4435-ABAB-F935B01EC15E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACF5CE05-0607-4435-ABAB-F935B01EC15E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E59146E6-0254-4F21-A989-B4BD5C3B3DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E59146E6-0254-4F21-A989-B4BD5C3B3DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E59146E6-0254-4F21-A989-B4BD5C3B3DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E59146E6-0254-4F21-A989-B4BD5C3B3DDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,6 +77,7 @@ Global
 		{AFC9D45A-C327-45B8-9DE8-0BA7B0164F43} = {8CF77E13-E3ED-4887-9363-DEEB13CF5497}
 		{9C3FBAFE-5AF1-4D63-A5A8-D9CC4324D909} = {59A1C742-4B97-43B7-9468-62938B692B91}
 		{ACF5CE05-0607-4435-ABAB-F935B01EC15E} = {0FA54B59-2746-430A-8301-413DF9EC5B1B}
+		{E59146E6-0254-4F21-A989-B4BD5C3B3DDA} = {0FA54B59-2746-430A-8301-413DF9EC5B1B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CF4FB9C1-9A84-4BE7-B25F-15D7D20D88DF}
