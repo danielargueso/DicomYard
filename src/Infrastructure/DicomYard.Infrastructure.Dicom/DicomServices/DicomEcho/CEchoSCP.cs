@@ -20,10 +20,9 @@ public class CEchoSCP : DicomService, IDicomServiceProvider, IDicomCEchoProvider
     }
     public Task OnReceiveAssociationRequestAsync(DicomAssociation association)
     {
-        var associationDump = JsonSerializer.Serialize(association)
-            .Replace("{", "¿").Replace("}", "?");
+        var associationDump = JsonSerializer.Serialize(association);
         _logger.Warn("OnReceiveAssociationRequestAsync");
-        _logger.Warn(associationDump);
+        _logger.Warn("{0}", associationDump);
 
         if (!_allowedCalledAETs.Contains(association.CalledAE))
         {
